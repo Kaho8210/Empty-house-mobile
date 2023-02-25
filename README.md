@@ -3,8 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## How to install envirioment
-`npm ci`\
-`npm run build`
+Implement following commands:\
+`1. npm ci`\
+`2. npm run build`
 ## Available Scripts
 
 In the project directory, you can run:
