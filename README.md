@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## How to install envirioment
-`npm ci`
+`npm ci`\
 `npm run build`
 ## Available Scripts
 
