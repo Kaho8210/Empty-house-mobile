@@ -1,15 +1,22 @@
 import React from 'react'
-import { Button } from '@mantine/core';
+import {Button,Center} from '@mantine/core';
+import "./ParticipantHome.css"
 
 const ParticipantHome = () => {
   return (
     <div> 
-      <Button color="violet" radius="md" size="lg">
+      <div>
+    <Button color="violet" radius="md" size="lg" top = {311}>
     行事の参加予定
   </Button>
-  <Button color="violet" radius="md" size="lg">
+</div>
+<div>
+
+  <Button color="violet" radius="md" size="lg" top = {474}>
       予約している行事
     </Button>
+   
+  </div>
   </div>
     
   )
