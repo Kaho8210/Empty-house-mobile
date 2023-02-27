@@ -1,3 +1,8 @@
-.ParticipantHome{
-    text-align: center;
+Button{
+    position:absolute;
+    margin-right: 65px;
+    margin-left: 65px;
+
+    width: 230px;
+    height: 55px;
 }
