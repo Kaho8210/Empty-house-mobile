@@ -6,13 +6,13 @@ const ParticipantHome = () => {
   return (
     <div> 
       <div>
-    <Button color="violet" radius="md" size="lg" top={311}>
+    <Button color="violet" radius="md" size="lg" top ={311}>
     行事の参加予定
   </Button>
 </div>
 <div>
 
-  <Button color="violet" radius="md" size="lg" top={474}>
+  <Button color="violet" radius="md" size="lg" top = {474}>
       予約している行事
     </Button>
    
