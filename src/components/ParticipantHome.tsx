@@ -12,7 +12,7 @@ const ParticipantHome = () => {
 </div>
 <div>
 
-  <Button color="violet" radius="md" size="lg" top = {474}>
+  <Button color="violet" radius="md" size="lg" top = {471}>
       予約している行事
     </Button>
    
