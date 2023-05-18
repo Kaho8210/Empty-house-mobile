@@ -1,0 +1,23 @@
+.head {
+    position: absolute;
+    top : 96px;
+    text-align: left;
+    
+}
+
+.searchfolder {
+    position: absolute;
+    top : 136px;
+}
+.search {
+    height: 31px;
+    width : 188px;
+}
+
+.card {
+    position: absolute;
+    top : 191px;
+}
+.cardtext {
+    text-align: left;
+}
