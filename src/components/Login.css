@@ -1,0 +1,42 @@
+.login_button {
+    /*ボタンの位置**************************************/
+    position: absolute;
+    margin-right: 65px; /*右の余白からボタンまでの長さ*/
+    margin-left: 120px; /*左の余白からボタンまでの長さ*/
+    /**************************************************/
+
+    display: block;
+    background-color: #0066FF; 
+    color: white;
+    padding: 9px 20px;
+    text-align: center; /*ボタンの文字の位置*/
+    border: none;
+    border-radius: 9px; /*ボタンの丸み*/
+    width: 120px; /*ボタンの幅*/
+    height: 35px; /*ボタンの高さ*/
+    top:70%;
+
+    /*フォント*************************/
+    font-size: 25px; 
+    font-weight: 600;/*フォント太さ*/
+    /*********************************/
+}
+
+.login_text{
+    position: absolute;
+    margin-right: 65px; /*右の余白からの長さ*/
+    margin-left: 120px; /*左の余白からの長さ*/
+
+    width: 160px;
+    height: 48px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 65px; 
+    margin-left: 120px; 
+    top:10%;
+}

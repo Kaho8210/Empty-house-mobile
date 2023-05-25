@@ -10,7 +10,6 @@ function App() {
   return (
       <Router>         
         <div className="App">      
-
           <Routes>
             <Route path="/" element={<Login />} />    /* Root is Login page */
             <Route path="/home" element={<Home />} />
