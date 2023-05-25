@@ -14,7 +14,7 @@
     border-radius: 9px; /*ボタンの丸み*/
     width: 120px; /*ボタンの幅*/
     height: 35px; /*ボタンの高さ*/
-    top:70%;
+    top:80%;
 
     /*フォント*************************/
     font-size: 25px; 
@@ -38,5 +38,19 @@
     text-align: center;
     margin-right: 65px; 
     margin-left: 120px; 
-    top:10%;
+    top:15%;
+}
+
+.login_password{
+    position: absolute;
+    margin-right: 65px; /*右の余白からの長さ*/
+    margin-left: 80px; /*左の余白からの長さ*/
+    top:25%;
+}
+
+.area_code{
+    position: absolute;
+    margin-right: 65px; /*右の余白からの長さ*/
+    margin-left: 80px; /*左の余白からの長さ*/
+    top:50%;
 }
