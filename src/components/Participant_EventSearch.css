@@ -14,9 +14,18 @@
     width : 188px;
 }
 
-.card {
+.card_1 {
     position: absolute;
-    top : 191px;
+    top: 191px;
+    left: 16px;
+    height: 627px; 
+}
+
+.card_2{
+    position: absolute;
+    top:838px;
+    left:16px;
+    height:627px;
 }
 .cardtext {
     text-align: left;

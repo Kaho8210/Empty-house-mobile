@@ -11,7 +11,12 @@ const Participant_EventSearch = () => {
         
             <Grid className = "searchfolder"> 
                 <Grid.Col span = {1}>
-               <VscSearch />
+                <Button 
+                variant="light" 
+                color="gray"
+                leftIcon={ <VscSearch />}>
+                </Button>
+              
                 </Grid.Col>
                 <Grid.Col span = {6}>
                     <Input className = "search" placeholder = "検索"　/>
@@ -26,7 +31,32 @@ const Participant_EventSearch = () => {
             </Grid>  
             
         
-        <Card className = "card" shadow="sm" radius="md" withBorder>
+        <Grid gutter={5} gutterXs="md" gutterMd="xl" gutterXl={50}>
+            <Grid.Col style ={{maxWidth:350}} sm={4} xs={4} span = {4}>
+        <Card className = "card_1" shadow="sm" radius="md" withBorder>
+            <Card.Section >
+             <Image height = {260} 
+             //src = ""
+             />
+            </Card.Section>
+            <Text className = "cardtext">(行事名) </Text>
+            <Text className = "cardtext"> 主催者:(主催者)</Text>
+            <Text className = "cardtext"> 開催日時:(開催日時)</Text>
+            <Text className = "cardtext"> 受付時間:〇月〇日〇時から〇月〇日〇時まで</Text>
+            <Text className = "cardtext">          </Text>
+            <Text className = "cardtext"> 行事の種類</Text>
+            <Text className = "cardtext">(行事の種類)</Text>
+            <Text className = "cardtext">内容</Text>
+            <Text className = "cardtext">(内容)</Text>
+            <Text className = "cardtext">参加人数:〇人</Text>
+            <Text className = "cardtext">その他</Text>
+            <Text className = "cardtext">(その他)</Text>
+            <Button color = "violet">予約画面へ</Button>
+        </Card>
+        </Grid.Col>
+
+        <Grid.Col　style ={{maxWidth:350}} sm={4} xs={4} span = {4}>
+        <Card className = "card_2" shadow="sm" radius="md" withBorder>
             <Card.Section>
              <Image height = {260} 
              //src = ""
@@ -46,8 +76,13 @@ const Participant_EventSearch = () => {
             <Text className = "cardtext">(その他)</Text>
             <Button color = "violet">予約画面へ</Button>
         </Card>
+        </Grid.Col>
 
+        </Grid>
+        
+       
         </div>
+        
 
     )
 }

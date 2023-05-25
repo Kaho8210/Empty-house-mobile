@@ -1,18 +1,21 @@
 import React from 'react'
 import {Button} from '@mantine/core';
 import "./ParticipantHome.css"
+import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom" ;
 
 const ParticipantHome = () => {
   return (
     <div> 
       <div>
-    <Button color="violet" radius="md" size="lg" top ={311}>
+        <Link to ="./EventSearch">
+    <Button className = "button_1">
     行事の参加予定
   </Button>
+  </Link>
 </div>
 <div>
 
-  <Button color="violet" radius="md" size="lg" top = {471}>
+  <Button className = "button_2">
       予約している行事
     </Button>
    
