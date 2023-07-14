@@ -6,7 +6,7 @@ const Participant_EventSearch = () => {
     return(
         <div>
         <div>
-        <Text className = "head">行事に参加する</Text> 
+        <Text  className = "head">行事に参加する</Text> 
         </div>
         
             <Grid className = "searchfolder"> 
@@ -22,11 +22,13 @@ const Participant_EventSearch = () => {
                     <Input className = "search" placeholder = "検索"　/>
                     </Grid.Col>
                
-                <Grid.Col span = {4}>
+                <Grid.Col span = {3}>
                     <Text>並べ替え</Text>
                     </Grid.Col>
-                    <Grid.Col span = {1}>
-                    <VscListUnordered />
+                    <Grid.Col  span = {1}>
+            
+                    <VscListUnordered/>
+                        
                 </Grid.Col>
             </Grid>  
             
@@ -42,7 +44,7 @@ const Participant_EventSearch = () => {
             <Text className = "cardtext">(行事名) </Text>
             <Text className = "cardtext"> 主催者:(主催者)</Text>
             <Text className = "cardtext"> 開催日時:(開催日時)</Text>
-            <Text className = "cardtext"> 受付時間:〇月〇日〇時から〇月〇日〇時まで</Text>
+            <Text className = "cardtext"> 受付時間:〇月〇日〇時~〇月〇日〇時</Text>
             <Text className = "cardtext">          </Text>
             <Text className = "cardtext"> 行事の種類</Text>
             <Text className = "cardtext">(行事の種類)</Text>
@@ -51,11 +53,11 @@ const Participant_EventSearch = () => {
             <Text className = "cardtext">参加人数:〇人</Text>
             <Text className = "cardtext">その他</Text>
             <Text className = "cardtext">(その他)</Text>
-            <Button color = "violet">予約画面へ</Button>
+            <Button className = 'button'>予約画面へ</Button>
         </Card>
         </Grid.Col>
 
-        <Grid.Col　style ={{maxWidth:350}} sm={4} xs={4} span = {4}>
+       <Grid.Col　style ={{maxWidth:350}} sm={4} xs={4} span = {4}>
         <Card className = "card_2" shadow="sm" radius="md" withBorder>
             <Card.Section>
              <Image height = {260} 
@@ -65,7 +67,7 @@ const Participant_EventSearch = () => {
             <Text className = "cardtext">(行事名) </Text>
             <Text className = "cardtext"> 主催者:(主催者)</Text>
             <Text className = "cardtext"> 開催日時:(開催日時)</Text>
-            <Text className = "cardtext"> 受付時間:〇月〇日〇時から〇月〇日〇時まで</Text>
+            <Text className = "cardtext"> 受付時間:〇月〇日〇時~〇月〇日〇時</Text>
             <Text className = "cardtext">          </Text>
             <Text className = "cardtext"> 行事の種類</Text>
             <Text className = "cardtext">(行事の種類)</Text>
@@ -74,9 +76,9 @@ const Participant_EventSearch = () => {
             <Text className = "cardtext">参加人数:〇人</Text>
             <Text className = "cardtext">その他</Text>
             <Text className = "cardtext">(その他)</Text>
-            <Button color = "violet">予約画面へ</Button>
+            <Button className = 'button'>予約画面へ</Button>
         </Card>
-        </Grid.Col>
+        </Grid.Col> 
 
         </Grid>
         

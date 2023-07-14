@@ -2,6 +2,7 @@
     position: absolute;
     top : 96px;
     text-align: left;
+    font-size: 30px;
     
 }
 
@@ -29,4 +30,21 @@
 }
 .cardtext {
     text-align: left;
+}
+
+.button{
+    display:block;
+    padding:9px 20px;
+    position:absolute;
+    width: 165px;
+    height: 48px;
+    left: 90px;
+    box-shadow: '5px 5px 4px rgba(0, 0, 0, 0.45)';
+    background-color: rgba(36, 0, 255, 0.7);;
+    border-radius: '9px';
+    
+    
+    color: white;
+    
+    border: none;
 }
