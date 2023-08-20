@@ -2,6 +2,7 @@ import React from 'react';
 import {Text,Input,Card,Image,Button,Container,Grid} from '@mantine/core';
 import {VscListUnordered,VscSearch} from 'react-icons/vsc';
 import './Participant_EventSearch.css';
+import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 const Participant_EventSearch = () => {
     return(
         <div>
@@ -53,7 +54,10 @@ const Participant_EventSearch = () => {
             <Text className = "cardtext">参加人数:〇人</Text>
             <Text className = "cardtext">その他</Text>
             <Text className = "cardtext">(その他)</Text>
-            <Button className = 'button'>予約画面へ</Button>
+
+            <Link to = "./detail">
+            <Button className = 'button' >予約画面へ</Button>
+            </Link>
         </Card>
         </Grid.Col>
 

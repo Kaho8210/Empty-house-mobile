@@ -6,40 +6,29 @@
     
 }
 
-.searchfolder {
-    position: absolute;
-    top : 136px;
-}
-.search {
-    height: 31px;
-    width : 188px;
+.Card1 {
+    top: 150px;
 }
 
-.card_1 {
-    position: absolute;
-    top: 191px;
-    left: 16px;
-    height: 627px; 
+.Card2 {
+    top: 150px;
+    
 }
 
-.card_2{
-    position: absolute;
-    top:838px;
-    left:16px;
-    height:627px;
-}
-.cardtext {
-    text-align: left;
+.Card3 {
+    top : 150px;
+    background-color: yellow;
 }
 
 .button{
     display:block;
     padding:9px 20px;
-    
+    position:absolute;
     width: 165px;
     height: 48px;
-    
-    bottom: 10px;
+    position: absolute;
+    left: 120px;
+    bottom: 50px;
     box-shadow: '5px 5px 4px rgba(0, 0, 0, 0.45)';
     background-color: rgba(36, 0, 255, 0.7);;
     border-radius: '9px';
